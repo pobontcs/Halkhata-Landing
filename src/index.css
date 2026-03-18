@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Custom Slide-Up Animation */
+@import "tailwindcss";
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Custom Slide-Up Animation */
+@theme {
+  --animate-slide-up: slide-up 0.8s ease-out forwards;
+
+  @keyframes slide-up {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Fixed the typo here: changed @keyframses to @keyframes */
+  @keyframes slide-left {
+    from {
+      opacity: 0;
+      transform: translateX(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  --animate-slide-left: slide-left 0.8s ease-out forwards;
+}
