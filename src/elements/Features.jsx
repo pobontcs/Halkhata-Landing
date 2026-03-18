@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Intro from "./intro";
 
 export default function Features() {
     // Faster, tighter animations for a snappier feel
@@ -91,6 +92,7 @@ export default function Features() {
                     <button className="bg-white text-orange-600 px-10 py-4 rounded-2xl font-black uppercase tracking-widest hover:scale-105 transition-transform text-xs">App Store</button>
                 </div>
             </div>
+            <Intro/>
         </div>
     );
 }
