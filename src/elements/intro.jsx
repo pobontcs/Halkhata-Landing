@@ -9,17 +9,17 @@ export default function Intro() {
                     Lead Developer
                 </span>
                 
-                <h2 className="text-4xl md:text-5xl font-black text-amber-950 uppercase tracking-tighter mb-2">
+                <h2 className="text-2xl md:text-5xl font-black text-amber-950 uppercase tracking-tighter mb-2">
                     Abdullah Al Hossain
                 </h2>
                 
                 <div className="h-1 w-12 bg-orange-500 rounded-full mb-6"></div>
                 
-                <p className="text-slate-500 font-bold uppercase text-xs tracking-widest mb-1">
+                <p className="text-slate-500 font-bold uppercase text-sm tracking-widest mb-1">
                     Institution
                 </p>
                 
-                <p className="text-amber-900 font-black text-lg md:text-xl">
+                <p className="text-amber-900 font-black text-sm md:text-xl">
                     Independent University, Bangladesh
                 </p>
 

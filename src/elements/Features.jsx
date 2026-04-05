@@ -88,8 +88,14 @@ export default function Features() {
             >
                 <h2 className="text-4xl font-black uppercase mb-6 italic tracking-tighter">Get HalKhata Now</h2>
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
-                    <button className="bg-slate-900 text-white px-10 py-4 rounded-2xl font-black uppercase tracking-widest hover:scale-105 transition-transform text-xs">Play Store</button>
-                    <button className="bg-white text-orange-600 px-10 py-4 rounded-2xl font-black uppercase tracking-widest hover:scale-105 transition-transform text-xs">App Store</button>
+                <a 
+  href="https://halkhata-9ba30.web.app" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="bg-slate-900 text-white px-10 py-4 rounded-2xl font-black uppercase tracking-widest hover:scale-105 transition-transform text-xs inline-block text-center"
+>
+  Download
+</a>
                 </div>
             </div>
             <Intro/>
