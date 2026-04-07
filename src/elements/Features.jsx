@@ -94,7 +94,7 @@ export default function Features() {
   rel="noopener noreferrer"
   className="bg-slate-900 text-white px-10 py-4 rounded-2xl font-black uppercase tracking-widest hover:scale-105 transition-transform text-xs inline-block text-center"
 >
-  Download
+  Hop in!!
 </a>
                 </div>
             </div>
